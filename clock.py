@@ -1,7 +1,7 @@
 from datetime import datetime
 from playsound import playsound
 import time
-import os
+# import os
 
 now = datetime.now()
 
@@ -12,4 +12,4 @@ while now.strftime("%H:%M:%S")!=alarm:
     time.sleep(1)
 file='Venpura-StarMusiQ.Fun.mp3'
 # os.system("vlc " + file)
-playsound('Venpura-StarMusiQ.Fun.mp3')
+playsound('tense-cinematic-117406.mp3')
